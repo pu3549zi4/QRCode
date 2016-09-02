@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07C679F3806574717220AB597883C12C /* ZRAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = 7779B80109C77EB4AFB834EEBB5B6DF4 /* ZRAudio.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EF8E0E2E31836D260AFD32E492CF713 /* ZRAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A34CCE1669B11C112901BF33F0B66D6 /* ZRAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1629E37BAB3D1AB529C4B3A476D668DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98001FF67728E9C67462BA95E3029C5B /* Foundation.framework */; };
+		1EF058A1F2D24575A22D5BE7A601D7AE /* ZRQRCodeController.h in Headers */ = {isa = PBXBuildFile; fileRef = DBDE355922360DC43725DC3F1105E15A /* ZRQRCodeController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38C989532E65EC19E8CEE009F2F423A1 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404CDF47908D5584A86E6D10955A9DD5 /* WebKit.framework */; };
+		3BF85792D12A4F1AE550E54A1E633803 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98001FF67728E9C67462BA95E3029C5B /* Foundation.framework */; };
+		698BD61A5D8EE9EC9D23A758B273EE1B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CFB946FB908FD0195C0E99E0F9F317 /* AVFoundation.framework */; };
+		730C5746F44EBF9541500BEBE453C60C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00EF58147C0057F3880F58DA85D37756 /* UIKit.framework */; };
+		9A3223DD878DAD7F52BEEF290BADC8AA /* ZRAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C982D9794AAA0AD8EC49E709AC656E /* ZRAlertController.m */; };
+		A109351494AE5BAC8D12C9602A57F70B /* ZRAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = F54D0CB58157EC13285785F4308F9C15 /* ZRAudio.m */; };
+		A2E8FC123E236B16298E984968216F98 /* ZRQRCodeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 99795D10CCE5906156F881E5B3B67F17 /* ZRQRCodeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4A27B6AD581924868E26D4220B744FF /* Pods-ZRQRCodeViewController(Demo)-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A9C40AB426FB3EA219AF45451789F5 /* Pods-ZRQRCodeViewController(Demo)-dummy.m */; };
+		EBC510184D4DA1D171CC35F659653903 /* ZRQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE403C74E6881EE79AB8A34CE6409C4 /* ZRQRCodeViewController.m */; };
+		F24700A7293C14567E25C12680EF3070 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C055794C515200F5EFB93277E2F43016 /* AudioToolbox.framework */; };
+		FFBAC2D28D5071FE4AC1CB665D7522E6 /* ZRQRCodeViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F71C25E4B052F72B4BE25EDD06FD5A7 /* ZRQRCodeViewController-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E11F2209A5F42180AC8D8737F44C88B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AF2C8A70862B6529B58E59FBD4B360E;
+			remoteInfo = ZRQRCodeViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00EF58147C0057F3880F58DA85D37756 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		08AFBEB0A8294939F2EFBEA2C53AB9AE /* Pods-ZRQRCodeViewController(Demo)-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZRQRCodeViewController(Demo)-acknowledgements.plist"; sourceTree = "<group>"; };
+		0E2B35F6A2B5FDA3547320AE9020E4B8 /* ZRQRCodeViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZRQRCodeViewController-prefix.pch"; sourceTree = "<group>"; };
+		16A9C40AB426FB3EA219AF45451789F5 /* Pods-ZRQRCodeViewController(Demo)-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZRQRCodeViewController(Demo)-dummy.m"; sourceTree = "<group>"; };
+		344EB90DE89FA08061488F25D824E9F7 /* Pods-ZRQRCodeViewController(Demo)-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZRQRCodeViewController(Demo)-acknowledgements.markdown"; sourceTree = "<group>"; };
+		404CDF47908D5584A86E6D10955A9DD5 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		5A2297217C8E1DF14F0DAE6E650D809D /* Pods-ZRQRCodeViewController(Demo)-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZRQRCodeViewController(Demo)-frameworks.sh"; sourceTree = "<group>"; };
+		5F9D8BFBA6B2409FC94A9AFDC7766742 /* libPods-ZRQRCodeViewController(Demo).a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZRQRCodeViewController(Demo).a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67C982D9794AAA0AD8EC49E709AC656E /* ZRAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZRAlertController.m; path = Classes/ZRAlertController.m; sourceTree = "<group>"; };
+		6F71C25E4B052F72B4BE25EDD06FD5A7 /* ZRQRCodeViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZRQRCodeViewController-dummy.m"; sourceTree = "<group>"; };
+		7779B80109C77EB4AFB834EEBB5B6DF4 /* ZRAudio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZRAudio.h; path = Classes/ZRAudio.h; sourceTree = "<group>"; };
+		7AFA58E0D7688074CEFF8E93A10F2831 /* Pods-ZRQRCodeViewController(Demo).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZRQRCodeViewController(Demo).debug.xcconfig"; sourceTree = "<group>"; };
+		7EE403C74E6881EE79AB8A34CE6409C4 /* ZRQRCodeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZRQRCodeViewController.m; path = Classes/ZRQRCodeViewController.m; sourceTree = "<group>"; };
+		8013B4021BC3328D0D09FBF6CDEFFA27 /* ZRQRCodeViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZRQRCodeViewController.xcconfig; sourceTree = "<group>"; };
+		8A34CCE1669B11C112901BF33F0B66D6 /* ZRAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZRAlertController.h; path = Classes/ZRAlertController.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98001FF67728E9C67462BA95E3029C5B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		99795D10CCE5906156F881E5B3B67F17 /* ZRQRCodeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZRQRCodeViewController.h; path = Classes/ZRQRCodeViewController.h; sourceTree = "<group>"; };
+		C055794C515200F5EFB93277E2F43016 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		C912019EBD01F2CA0AFB3AFEC3BBD3D9 /* Pods-ZRQRCodeViewController(Demo).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZRQRCodeViewController(Demo).release.xcconfig"; sourceTree = "<group>"; };
+		C9CFB946FB908FD0195C0E99E0F9F317 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		CC047E7F2DE8BC2BB68D1DBD47F2FF95 /* libZRQRCodeViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZRQRCodeViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D70DDF80DA3FBCEE4643882694ECEA80 /* ZRQRCode.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ZRQRCode.bundle; path = Classes/ZRQRCode.bundle; sourceTree = "<group>"; };
+		DBDE355922360DC43725DC3F1105E15A /* ZRQRCodeController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZRQRCodeController.h; path = Classes/ZRQRCodeController.h; sourceTree = "<group>"; };
+		EA7600A15212F974C02A7C2B9C7B0248 /* Pods-ZRQRCodeViewController(Demo)-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZRQRCodeViewController(Demo)-resources.sh"; sourceTree = "<group>"; };
+		F54D0CB58157EC13285785F4308F9C15 /* ZRAudio.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZRAudio.m; path = Classes/ZRAudio.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FE542BF9D27BDEB4B4390717B7B6A9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF85792D12A4F1AE550E54A1E633803 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B0FEB755E61B947E280D7A97544077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24700A7293C14567E25C12680EF3070 /* AudioToolbox.framework in Frameworks */,
+				698BD61A5D8EE9EC9D23A758B273EE1B /* AVFoundation.framework in Frameworks */,
+				1629E37BAB3D1AB529C4B3A476D668DC /* Foundation.framework in Frameworks */,
+				730C5746F44EBF9541500BEBE453C60C /* UIKit.framework in Frameworks */,
+				38C989532E65EC19E8CEE009F2F423A1 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				250D4C4DEFB0641B1879E3CCDDCCAD8C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		250D4C4DEFB0641B1879E3CCDDCCAD8C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C055794C515200F5EFB93277E2F43016 /* AudioToolbox.framework */,
+				C9CFB946FB908FD0195C0E99E0F9F317 /* AVFoundation.framework */,
+				98001FF67728E9C67462BA95E3029C5B /* Foundation.framework */,
+				00EF58147C0057F3880F58DA85D37756 /* UIKit.framework */,
+				404CDF47908D5584A86E6D10955A9DD5 /* WebKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		448D2C9A188F74DB9C2366F86DEF398B /* Pods-ZRQRCodeViewController(Demo) */ = {
+			isa = PBXGroup;
+			children = (
+				344EB90DE89FA08061488F25D824E9F7 /* Pods-ZRQRCodeViewController(Demo)-acknowledgements.markdown */,
+				08AFBEB0A8294939F2EFBEA2C53AB9AE /* Pods-ZRQRCodeViewController(Demo)-acknowledgements.plist */,
+				16A9C40AB426FB3EA219AF45451789F5 /* Pods-ZRQRCodeViewController(Demo)-dummy.m */,
+				5A2297217C8E1DF14F0DAE6E650D809D /* Pods-ZRQRCodeViewController(Demo)-frameworks.sh */,
+				EA7600A15212F974C02A7C2B9C7B0248 /* Pods-ZRQRCodeViewController(Demo)-resources.sh */,
+				7AFA58E0D7688074CEFF8E93A10F2831 /* Pods-ZRQRCodeViewController(Demo).debug.xcconfig */,
+				C912019EBD01F2CA0AFB3AFEC3BBD3D9 /* Pods-ZRQRCodeViewController(Demo).release.xcconfig */,
+			);
+			name = "Pods-ZRQRCodeViewController(Demo)";
+			path = "Target Support Files/Pods-ZRQRCodeViewController(Demo)";
+			sourceTree = "<group>";
+		};
+		4A0297EB57963AE5474ACAB53383373A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F9D8BFBA6B2409FC94A9AFDC7766742 /* libPods-ZRQRCodeViewController(Demo).a */,
+				CC047E7F2DE8BC2BB68D1DBD47F2FF95 /* libZRQRCodeViewController.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
+				F4F4E8DCF035128DCD251720782343CD /* Pods */,
+				4A0297EB57963AE5474ACAB53383373A /* Products */,
+				F0ECAE01C23FD4D623483197CE794B74 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8C28698C6F0896778F882C56028EC75D /* ZRQRCodeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8A34CCE1669B11C112901BF33F0B66D6 /* ZRAlertController.h */,
+				67C982D9794AAA0AD8EC49E709AC656E /* ZRAlertController.m */,
+				7779B80109C77EB4AFB834EEBB5B6DF4 /* ZRAudio.h */,
+				F54D0CB58157EC13285785F4308F9C15 /* ZRAudio.m */,
+				DBDE355922360DC43725DC3F1105E15A /* ZRQRCodeController.h */,
+				99795D10CCE5906156F881E5B3B67F17 /* ZRQRCodeViewController.h */,
+				7EE403C74E6881EE79AB8A34CE6409C4 /* ZRQRCodeViewController.m */,
+				E25D94636912330D34E5395C032FA5D8 /* Resources */,
+				8C5C259F54A7BC3C63DE594462BB825D /* Support Files */,
+			);
+			path = ZRQRCodeViewController;
+			sourceTree = "<group>";
+		};
+		8C5C259F54A7BC3C63DE594462BB825D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8013B4021BC3328D0D09FBF6CDEFFA27 /* ZRQRCodeViewController.xcconfig */,
+				6F71C25E4B052F72B4BE25EDD06FD5A7 /* ZRQRCodeViewController-dummy.m */,
+				0E2B35F6A2B5FDA3547320AE9020E4B8 /* ZRQRCodeViewController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZRQRCodeViewController";
+			sourceTree = "<group>";
+		};
+		E25D94636912330D34E5395C032FA5D8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D70DDF80DA3FBCEE4643882694ECEA80 /* ZRQRCode.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F0ECAE01C23FD4D623483197CE794B74 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				448D2C9A188F74DB9C2366F86DEF398B /* Pods-ZRQRCodeViewController(Demo) */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F4F4E8DCF035128DCD251720782343CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C28698C6F0896778F882C56028EC75D /* ZRQRCodeViewController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FEBC35597672D6957E33355A14A6BA38 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EF8E0E2E31836D260AFD32E492CF713 /* ZRAlertController.h in Headers */,
+				07C679F3806574717220AB597883C12C /* ZRAudio.h in Headers */,
+				1EF058A1F2D24575A22D5BE7A601D7AE /* ZRQRCodeController.h in Headers */,
+				A2E8FC123E236B16298E984968216F98 /* ZRQRCodeViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4AF2C8A70862B6529B58E59FBD4B360E /* ZRQRCodeViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3238AFF5BBA37678E3FA42AA2495B297 /* Build configuration list for PBXNativeTarget "ZRQRCodeViewController" */;
+			buildPhases = (
+				FA72E5C09808272128ED65698E6258E8 /* Sources */,
+				C3B0FEB755E61B947E280D7A97544077 /* Frameworks */,
+				FEBC35597672D6957E33355A14A6BA38 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZRQRCodeViewController;
+			productName = ZRQRCodeViewController;
+			productReference = CC047E7F2DE8BC2BB68D1DBD47F2FF95 /* libZRQRCodeViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9FF35777A17737C119760152A49EE122 /* Pods-ZRQRCodeViewController(Demo) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A1D240E51D9157462757B93CA08557C /* Build configuration list for PBXNativeTarget "Pods-ZRQRCodeViewController(Demo)" */;
+			buildPhases = (
+				ED9F4637BADD90AD48EA60E2180DB877 /* Sources */,
+				8FE542BF9D27BDEB4B4390717B7B6A9F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A408212143C507B29D64714EDDC6C888 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZRQRCodeViewController(Demo)";
+			productName = "Pods-ZRQRCodeViewController(Demo)";
+			productReference = 5F9D8BFBA6B2409FC94A9AFDC7766742 /* libPods-ZRQRCodeViewController(Demo).a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4A0297EB57963AE5474ACAB53383373A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FF35777A17737C119760152A49EE122 /* Pods-ZRQRCodeViewController(Demo) */,
+				4AF2C8A70862B6529B58E59FBD4B360E /* ZRQRCodeViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED9F4637BADD90AD48EA60E2180DB877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4A27B6AD581924868E26D4220B744FF /* Pods-ZRQRCodeViewController(Demo)-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA72E5C09808272128ED65698E6258E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A3223DD878DAD7F52BEEF290BADC8AA /* ZRAlertController.m in Sources */,
+				A109351494AE5BAC8D12C9602A57F70B /* ZRAudio.m in Sources */,
+				FFBAC2D28D5071FE4AC1CB665D7522E6 /* ZRQRCodeViewController-dummy.m in Sources */,
+				EBC510184D4DA1D171CC35F659653903 /* ZRQRCodeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A408212143C507B29D64714EDDC6C888 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZRQRCodeViewController;
+			target = 4AF2C8A70862B6529B58E59FBD4B360E /* ZRQRCodeViewController */;
+			targetProxy = E11F2209A5F42180AC8D8737F44C88B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3FA2475660FFC880302AD18E29B2E5FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		49128E671ECBA14B8383223FE77E773C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8013B4021BC3328D0D09FBF6CDEFFA27 /* ZRQRCodeViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZRQRCodeViewController/ZRQRCodeViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		834E162D4AE9ACE84CE9FCFDE5EB3718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AFA58E0D7688074CEFF8E93A10F2831 /* Pods-ZRQRCodeViewController(Demo).debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A80233B449D07F711D49192ED9B3E2FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8013B4021BC3328D0D09FBF6CDEFFA27 /* ZRQRCodeViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZRQRCodeViewController/ZRQRCodeViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F0FC1CA696309C9E04547FD2783950BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C912019EBD01F2CA0AFB3AFEC3BBD3D9 /* Pods-ZRQRCodeViewController(Demo).release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F325026B55060D3B22BEC0BAB5FA7344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA2475660FFC880302AD18E29B2E5FC /* Debug */,
+				F325026B55060D3B22BEC0BAB5FA7344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3238AFF5BBA37678E3FA42AA2495B297 /* Build configuration list for PBXNativeTarget "ZRQRCodeViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49128E671ECBA14B8383223FE77E773C /* Debug */,
+				A80233B449D07F711D49192ED9B3E2FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A1D240E51D9157462757B93CA08557C /* Build configuration list for PBXNativeTarget "Pods-ZRQRCodeViewController(Demo)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834E162D4AE9ACE84CE9FCFDE5EB3718 /* Debug */,
+				F0FC1CA696309C9E04547FD2783950BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
